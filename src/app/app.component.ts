@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task-day2';
+
+  isTableShow: boolean = false;
+
+  onShowTable() {
+    this.isTableShow = true;
+  }
 }
